@@ -2,9 +2,12 @@
  * Created by mysorp on 9/1/2015.
  */
 public class Disp {
-    int i;
+    private int i;
     void Display(){
-        i=10;
-        System.out.println(i);
+        for (int j=0;j<100;j++){
+            j*=j;
+            System.out.println(j);
+        }
+
     }
 }
