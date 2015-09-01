@@ -7,5 +7,7 @@ public class HelloWorld {
         System.out.println("hello");
         System.out.println("Another line change");
         d.Display();
+        Test t=new Test();
+        t.show();
     }
 }
